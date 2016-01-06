@@ -1,0 +1,12 @@
+{
+    "name": "glpk",
+    "description": "D glpk header",
+    "targetType": "library",
+    "homepage": "https://github.com/dataPulverizer/glpk",
+    "copyright": "Copyright © 2016 Chibisi Chima-Okereke",
+    "authors": [
+        "Chibisi Chima-Okereke"
+    ],
+    "license": "GPL v3.0",
+    "libs": ["glpk"]
+}
