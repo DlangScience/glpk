@@ -1,6 +1,6 @@
 import std.stdio;
 import core.stdc.stdio;
-import glpk;
+import glpk.glpk;
 
 int main(){
   glp_prob* lp;
