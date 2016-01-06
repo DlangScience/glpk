@@ -3,7 +3,7 @@ C->D glpk header interface file is a direct conversion from the C header file
 Authors: Chibisi Chima-Okereke
 */
 
-module glpk;
+module glpk.glpk;
 import core.stdc.stdarg;
 
 extern (C) {
