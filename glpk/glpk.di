@@ -78,7 +78,7 @@ struct glp_bfcp
       double upd_tol;         /* (not used) */
       int nrs_max;            /* scfint.nn_max */
       int rs_size;            /* (not used) */
-      double foo_bar[38];     /* (reserved) */
+      double* foo_bar;     /* array of length 38: (reserved) */
 }
 
 struct glp_smcp
@@ -109,7 +109,7 @@ struct glp_smcp
       int out_frq;            /* spx.out_frq */
       int out_dly;            /* spx.out_dly (milliseconds) */
       int presolve;           /* enable/disable using LP presolver */
-      double foo_bar[36];     /* (reserved) */
+      double* foo_bar;     /* array of length 36: (reserved) */
 }
 
 struct glp_iptcp
@@ -120,7 +120,7 @@ struct glp_iptcp
       enum GLP_ORD_QMD = 1;  /* quotient minimum degree (QMD) */
       enum GLP_ORD_AMD = 2;  /* approx. minimum degree (AMD) */
       enum GLP_ORD_SYMAMD = 3;  /* approx. minimum degree (SYMAMD) */
-      double foo_bar[48];     /* (reserved) */
+      double* foo_bar;     /* array of length 48 (reserved) */
 }
 
 struct glp_tree;
@@ -166,7 +166,7 @@ struct glp_iocp
       int use_sol;            /* use existing solution */
       const(char)* save_sol;   /* filename to save every new solution */
       int alien;              /* use alien solver */
-      double foo_bar[24];     /* (reserved) */
+      double* foo_bar;     /* array of length 24 (reserved) */
 }
 
 struct glp_attr
@@ -183,7 +183,7 @@ struct glp_attr
       enum GLP_RF_MIR = 2;  /* mixed integer rounding cut */
       enum GLP_RF_COV = 3;  /* mixed cover cut */
       enum GLP_RF_CLQ = 4;  /* clique cut */
-      double foo_bar[7];
+      double* foo_bar; /* array of length 7 */
       /* (reserved) */
 }
 
@@ -245,13 +245,13 @@ struct glp_mpscp
       /* objective row name */
       double tol_mps;
       /* zero tolerance for MPS data */
-      double foo_bar[17];
+      double* foo_bar; /* array of length 17 */
       /* (reserved for use in the future) */
 }
 
 struct glp_cpxcp
 {     /* CPLEX LP format control parameters */
-      double foo_bar[20];
+      double* foo_bar; /* array of length 20 */
       /* (reserved for use in the future) */
 }
 
