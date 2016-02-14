@@ -2,7 +2,8 @@
     "name": "glpk",
     "description": "D glpk header",
     "version": "0.1.0",
-    "targetType": "dynamicLibrary",
+    "dflags-dmd": ["-L-lglpk -L-lm"],
+    "targetType": "library",
     "homepage": "https://github.com/dataPulverizer/glpk",
     "copyright": "Copyright © 2016 Chibisi Chima-Okereke",
     "authors": [
