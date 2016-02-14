@@ -1,7 +1,8 @@
 {
     "name": "glpk",
     "description": "D glpk header",
-    "targetType": "library",
+    "version": "0.1.0",
+    "targetType": "dynamicLibrary",
     "homepage": "https://github.com/dataPulverizer/glpk",
     "copyright": "Copyright © 2016 Chibisi Chima-Okereke",
     "authors": [
