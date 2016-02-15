@@ -1030,21 +1030,25 @@ int glp_top_sort(glp_graph* G, int v_num);
 int glp_wclique_exact(glp_graph* G, int v_wgt, double* sol, int v_set);
 /* find maximum weight clique with exact algorithm */
 
-T round_dp(T)(T x, int dp = 0){
-  T factor = pow(10, dp + 1);
-  x *= factor;
-  x += 1.;
-  x /= 10.;
-  factor /= 10.;
-  return round(x)/factor;
-}
 
 // Tests
 unittest{
+ 
+  import std.math: pow, round;
+
+  T round_dp(T)(T x, int dp = 0){
+    T factor = pow(10, dp + 1);
+    x *= factor;
+    x += 1.;
+    x /= 10.;
+    factor /= 10.;
+    return round(x)/factor;
+  }
+
   glp_prob* lp;
-  int ia[1+1000];
-  int ja[1+1000];
-  double ar[1+1000];
+  int[1+1000] ia;
+  int[1+1000] ja;
+  double[1+1000] ar;
   double z, x1, x2, x3;
   lp = glp_create_prob();
   glp_set_prob_name(lp, "sample");

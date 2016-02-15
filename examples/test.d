@@ -4,9 +4,9 @@ import glpk.glpk;
 
 int main(){
   glp_prob* lp;
-  int ia[1+1000];
-  int ja[1+1000];
-  double ar[1+1000];
+  int[1+1000] ia;
+  int[1+1000] ja;
+  double[1+1000] ar;
   double z, x1, x2, x3;
   lp = glp_create_prob();
   glp_set_prob_name(lp, "sample");
