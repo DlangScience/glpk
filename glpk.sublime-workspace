@@ -1,1 +1,282 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 390.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/chib/code/github/glpk"
+	],
+	"file_history":
+	[
+		"/home/chib/code/github/glpk/examples/test/dub.json",
+		"/home/chib/code/github/glpk/examples/test/test.d",
+		"/home/chib/code/github/glpk/.dub/dub.json",
+		"/home/chib/code/github/glpk/source/glpk.d",
+		"/home/chib/code/github/glpk/dub.json",
+		"/home/chib/code/github/nlopt/examples/constraintTest/dub.json",
+		"/home/chib/code/github/glpk/glpk.sublime-project",
+		"/home/chib/code/github/old/nlopt/examples/constraintTest/dub.json",
+		"/home/chib/code/github/old/nlopt/dub.json",
+		"/home/chib/Downloads/nlopt-2.4.2/AUTHORS",
+		"/home/chib/Downloads/nlopt-2.4.2/TODO",
+		"/home/chib/code/Cpp/sample.cc",
+		"/home/chib/code/Cpp/sample_out",
+		"/home/chib/code/Cpp/sample_05.cc",
+		"/usr/include/kudu/client/callbacks.h",
+		"/usr/include/kudu/client/client.h",
+		"/usr/include/kudu/util/kudu_export.h",
+		"/home/chib/code/Cpp/oldsample.cc",
+		"/home/chib/denug",
+		"/home/chib/programs/julia/Make.user",
+		"/home/chib/programs/armadillo/examples/example1.cpp",
+		"/home/chib/hw.chpl",
+		"/home/chib/programs/julia/Makefile",
+		"/home/chib/.profile",
+		"/home/chib/Downloads/chapel-1.12.0/compiler/AST/gen/linux64.gnu.wide-struct.llvm-none/WhileStmt.d",
+		"/home/chib/programs/mongodb/bson_ex1.c",
+		"/home/chib/programs/mongodb/example.c",
+		"/home/chib/Downloads/chapel-1.12.0/compiler/AST/gen/linux64.gnu.wide-struct.llvm-none/alist.d",
+		"/home/chib/programs/mongodb/mongo-c-driver/aclocal.m4",
+		"/home/chib/programs/mongodb/mongo-c-driver/configure.ac",
+		"/home/chib/programs/mongodb/mongo-c-driver/tests/test-libmongoc.c",
+		"/home/chib/programs/mongodb/mongo-c-driver/src/libmongoc.symbols",
+		"/home/chib/programs/mongodb/mongo-c-driver/src/mongoc/.dirstamp",
+		"/home/chib/programs/mongodb/mongo-c-driver/src/libbson/src/bson/libbson_la-bson-json.lo",
+		"/home/chib/programs/mongodb/mongo-c-driver/example-scram",
+		"/home/chib/programs/mongodb/mongo-c-driver/example-client",
+		"/etc/ld.so.conf.d/mongoc.conf",
+		"/etc/ld.so.conf",
+		"/home/chib/programs/mongodb/mongo-c-driver-master/README.rst",
+		"/home/chib/programs/mongodb/mongo-c-driver/README.rst",
+		"/home/chib/programs/mongodb/mongo-c-driver/libtool",
+		"/home/chib/programs/mongodb/mongo-c-driver/autogen.sh",
+		"/home/chib/programs/mongodb/mongo-c-driver/NEWS",
+		"/home/chib/programs/mongodb/mongo-c-driver/README",
+		"/usr/local/lib/libbson-1.0.la",
+		"/home/chib/programs/armadillo/configure",
+		"/home/chib/programs/armadillo/cmake_install.cmake",
+		"/home/chib/programs/armadillo/CMakeFiles/Makefile2",
+		"/home/chib/programs/armadillo/README.txt",
+		"/home/chib/programs/cmake/README.rst",
+		"/home/chib/programs/A.txt",
+		"/home/chib/programs/cmake/bootstrap",
+		"/home/chib/Downloads/armadillo-6.500.5/README.txt",
+		"/home/chib/Downloads/armadillo-6.500.5/LICENSE.txt",
+		"/home/chib/code/D/tutorials/hello/makefile",
+		"/home/chib/code/D/tutorials/hello/main.cpp",
+		"/home/chib/code/D/tutorials/hello/hello.cpp",
+		"/home/chib/code/D/tutorials/hello/hello.hpp",
+		"/home/chib/code/D/tutorials/hello/hello.d",
+		"/home/chib/programs/kudu/CMakeLists.txt",
+		"/usr/include/kudu/util/monotime.h",
+		"/etc/default/kudu-master",
+		"/etc/default/kudu-tserver",
+		"/etc/apt/sources.list",
+		"/home/chib/programs/hw.cpp",
+		"/home/chib/programs/leveldb/Makefile",
+		"/home/chib/programs/mongo-c-driver/src/libmongoc-1.0.pc",
+		"/home/chib/programs/mongo-cxx-driver/CMakeLists.txt",
+		"/usr/local/share/cmake-3.5/Modules/FindPkgConfig.cmake",
+		"/home/chib/programs/mongo-cxx-driver/build/CMakeCache.txt",
+		"/usr/local/lib/pkgconfig/libmongoc-1.0.pc",
+		"/usr/local/lib/pkgconfig/libbson-1.0.pc",
+		"/home/chib/programs/mongo-cxx-driver/build/CMakeFiles/CMakeOutput.log",
+		"/home/chib/programs/mongo-cxx-driver/README.md",
+		"/home/chib/programs/cmake-3.5.0-rc3/README.rst",
+		"/home/chib/Downloads/cmake-3.5.0-rc3/bootstrap",
+		"/var/log/mongodb/mongod.log",
+		"/home/chib/Downloads/chapel-1.12.0/bin/linux64/hw.chpl",
+		"/home/chib/Downloads/ldc/bin/test.d",
+		"/home/chib/Downloads/ldc/bin/test2.d",
+		"/home/chib/Downloads/Coedit-2_update_1/README.md",
+		"/home/chib/code/github/nlopt/nlopt.sublime-project",
+		"/home/chib/code/github/glpk/source/glpk/glpk.d",
+		"/home/chib/code/D/libs/nlopt/example.d",
+		"/home/chib/code/D/libs/nlopt/nlopt.di",
+		"/home/chib/code/github/nlopt/source/nlopt.d",
+		"/home/chib/code/github/nlopt/examples/nlconstrTest.d",
+		"/home/chib/code/github/nlopt/source/nlopt/nlopt.d",
+		"/home/chib/code/github/glpk/examples/test.d",
+		"/home/chib/.config/sublime-text-3/Packages/User/DUB.sublime-build",
+		"/home/chib/code/github/glpk/dub.selections.json",
+		"/home/chib/code/github/glpk/glpk.sublime-workspace",
+		"/home/chib/.config/sublime-text-2/Packages/D/D.sublime-build",
+		"/home/chib/.config/sublime-text-2/Packages/User/SublimeREPL.sublime-settings",
+		"/usr/share/applications/sublime.desktop",
+		"/home/chib/.config/sublime-text-2/Packages/Terminal/Terminal.sublime-settings"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"struct",
+			"{}",
+			"install",
+			"prefix",
+			"output",
+			"trash",
+			"error",
+			"PKG_CONFIG_PATH",
+			"nlopt_func",
+			"nlopt_set_min_objective"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "dub package",
+	"project": "glpk.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
