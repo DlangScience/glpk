@@ -1,8 +1,19 @@
 import std.stdio;
 import core.stdc.stdio;
-import glpk.glpk;
+import glpk;
+import std.math: pow, round;
+
+T round_dp(T)(T x, int dp = 0){
+    T factor = pow(10, dp + 1);
+    x *= factor;
+    x += 1.;
+    x /= 10.;
+    factor /= 10.;
+    return round(x)/factor;
+}
 
 int main(){
+
   glp_prob* lp;
   int[1+1000] ia;
   int[1+1000] ja;
@@ -46,6 +57,16 @@ int main(){
   glp_delete_prob(lp);
 
   writeln("\nOutputs: \nz: ", z, ", x1: ", x1, ", x2: ", x2, ", x3: ", x3);
+  double output;
+  output = round_dp(z);
+  assert(output == 733);
+  output = round_dp(x1);
+  assert(output == 33.);
+  output = round_dp(x2);
+  assert(output == 67.);
+  output = round_dp(x3);
+  assert(output == 0.);
+
   return 0;
 }
 

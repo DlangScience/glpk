@@ -1,0 +1,8 @@
+{
+    "name": "glpk_example",
+    "targetType": "executable",
+    "sourcePaths": ["."],
+    "dependencies": {
+        "glpk": { "path": "../../" }
+    }
+}
