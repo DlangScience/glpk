@@ -2,9 +2,8 @@
     "name": "glpk",
     "description": "D glpk header",
     "version": "0.1.0",
-    "libs": ["glpk"],
-    "dflags-dmd": ["-L-lglpk -L-lm"],
-    "homepage": "https://github.com/dataPulverizer/glpk",
+    "libs": ["glpk", "m"],
+    "homepage": "https://github.com/DlangScience/glpk",
     "copyright": "Copyright © 2016 Chibisi Chima-Okereke",
     "authors": ["Chibisi Chima-Okereke"],
     "license": "GPL v3.0"
